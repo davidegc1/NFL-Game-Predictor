@@ -103,3 +103,6 @@ Classification Report
 
 Special thanks to Professor Alexander Belyaev and colleagues who supported the project.
 
+This work was completed as a final project for the [566 Analysis of Algorithms](https://www.bu.edu/csmet/academic-programs/courses/cs566/) class at BU MET College.
+
+
