@@ -73,11 +73,27 @@ Eight different models were tested to evaluate various techniques for predicting
 The best model achieved a validation accuracy of 61.63% and a test accuracy of 59%, demonstrating the ability to generalize well despite the relatively small dataset size.
 For a detailed analysis of the results and methodology, please refer to the full [report](report.pdf).
 
-![Training](training.png)
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <div>
+        <img src="training.png" alt="Training" width="400"/>
+        <p style="text-align: center;">Training</p>
+    </div>
+    <div>
+        <img src="confusion_matrix.png" alt="Confusion Matrix" width="400"/>
+        <p style="text-align: center;">Confusion Matrix</p>
+    </div>
+</div>
 
-![Confusion Matrix](confusion_matrix.png)
+# Classification Report
 
-![Classification Report](classification_report.png)
+| Class | Precision | Recall | F1-Score | Support |
+|------|----------|-------|---------|--------|
+| 0    | 0.60     | 0.68  | 0.64    | 534    |
+| 1    | 0.57     | 0.49  | 0.53    | 472    |
+|      |          |       |         |        |
+| Accuracy      |        |       | 0.59    | 1006   |
+| Macro Avg     | 0.59   | 0.58  | 0.58    | 1006   |
+| Weighted Avg  | 0.59   | 0.59  | 0.59    | 1006   |
 
 ---
 
@@ -85,4 +101,7 @@ For a detailed analysis of the results and methodology, please refer to the full
 
 One of the main challenges was balancing the classes and preventing overfitting, as the dataset had slight class imbalance. Techniques like dropout layers and L1 regularization were crucial to improving model robustness.
 
+## Acknowledgements
+
+Special thanks to Professor Zoran Djordjevic and colleagues who supported the project.
 
