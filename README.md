@@ -103,5 +103,5 @@ One of the main challenges was balancing the classes and preventing overfitting,
 
 ## Acknowledgements
 
-Special thanks to Professor Zoran Djordjevic and colleagues who supported the project.
+Special thanks to Professor Alexander Belyaev and colleagues who supported the project.
 
