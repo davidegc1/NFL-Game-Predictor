@@ -73,6 +73,8 @@ Eight different models were tested to evaluate various techniques for predicting
 The best model achieved a validation accuracy of 61.63% and a test accuracy of 59%, demonstrating the ability to generalize well despite the relatively small dataset size.
 For a detailed analysis of the results and methodology, please refer to the full [report](report.pdf).
 
+This project demonstrated the potential of deep learning techniques to predict the outcomes of American football games based on game and betting data. Despite the challenges posed by the relatively small dataset and the inherent variability of sports outcomes, the best model achieved a validation accuracy of 61.63% and a test accuracy of 59%. This performance is comparable to expert predictions and highlights the ability of neural networks to generalize well even in complex, dynamic scenarios.
+
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     <div style="flex: 1; text-align: center;">
         <img src="training.png" alt="Training" width="400"/>
@@ -84,7 +86,7 @@ For a detailed analysis of the results and methodology, please refer to the full
     </div>
 </div>
 
-# Classification Report
+Classification Report
 
 | Class | Precision | Recall | F1-Score | Support |
 |------|----------|-------|---------|--------|
@@ -96,10 +98,6 @@ For a detailed analysis of the results and methodology, please refer to the full
 | Weighted Avg  | 0.59   | 0.59  | 0.59    | 1006   |
 
 ---
-
-## Challenges
-
-One of the main challenges was balancing the classes and preventing overfitting, as the dataset had slight class imbalance. Techniques like dropout layers and L1 regularization were crucial to improving model robustness.
 
 ## Acknowledgements
 
