@@ -73,14 +73,14 @@ Eight different models were tested to evaluate various techniques for predicting
 The best model achieved a validation accuracy of 61.63% and a test accuracy of 59%, demonstrating the ability to generalize well despite the relatively small dataset size.
 For a detailed analysis of the results and methodology, please refer to the full [report](report.pdf).
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <div>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <div style="flex: 1; text-align: center;">
         <img src="training.png" alt="Training" width="400"/>
-        <p style="text-align: center;">Training</p>
+        <p>Training</p>
     </div>
-    <div>
+    <div style="flex: 1; text-align: center;">
         <img src="confusion_matrix.png" alt="Confusion Matrix" width="400"/>
-        <p style="text-align: center;">Confusion Matrix</p>
+        <p>Confusion Matrix</p>
     </div>
 </div>
 
